@@ -1,3 +1,4 @@
+# conda install numpy
 import numpy as np
 
 print("\n--numpy随机数--")

@@ -1,3 +1,4 @@
+# conda install pandas
 import pandas as pd
 
 print("\n--普通列表转Series--")
