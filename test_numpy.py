@@ -1,3 +1,4 @@
+# conda install numpy
 import numpy as np
 
 r = np.random.randint(1, 10)
