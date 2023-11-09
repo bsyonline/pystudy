@@ -78,3 +78,15 @@ print(np_copy)
 print("\n--创建等差数列--")
 # 从2到20，元素为3的等差数列
 print(np.linspace(start=2, stop=20, num=3))
+
+np_arr = np.asarray([[4, 7, 5],
+                     [4, 2, 5],
+                     [7, 2, 4],
+                     [1, 2, 4]])
+print(np_arr.sum(axis=1) / 3)
+print(np.average(np_arr, axis=1))
+
+scores = np.random.rand(256, 256, 2)
+scores[:, :, 1] = 1 - scores[:, :, 0]
+print(scores)
+print(np.argmax(scores, axis=2))
