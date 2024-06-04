@@ -1,5 +1,6 @@
 # 定义class
 class Employee():
+    # __init__是一个特殊方法用于在创建对象时进行初始化操作
     # 默认方法，python会自动执行
     def __init__(self, id, name, age):
         print("__init__")
@@ -32,6 +33,8 @@ print("employee age:" + str(e.age))
 print("employee type:" + e.type)
 # 外部不能访问私有变量
 # print(e.__private_name)
+# 通过这样的方式就可以访问私有变量，但是不推荐
+print(e._Employee__private_name)
 print("employee private name:" + e.get_private_name())
 e.work()
 print(e.to_string())
