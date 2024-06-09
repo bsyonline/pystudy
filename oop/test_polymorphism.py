@@ -6,6 +6,7 @@ class Animal:
 class Dog(Animal):
     pass
 
+
 class Cat(Animal):
     def run(self):
         print("cat run")

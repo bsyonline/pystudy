@@ -33,6 +33,7 @@ class Car(object):
     def work(self):
         print("car run")
 
+
 def main():
     e = Sales(1, "zhangsan")
     print(e.id)

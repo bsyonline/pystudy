@@ -39,4 +39,3 @@ print("---")
 with open("test_io.txt", 'a') as f2:
     f2.write("this first line\n")
     f2.write("this second line\n")
-
